@@ -1,0 +1,41 @@
+.btn-login {
+  border-radius: 8px;
+  background: rgba(209, 160, 84, 0.7);
+}
+.login {
+  background-image: url("../../assets/login/login-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.new {
+  color: #d1a054;
+  font-family: Inter;
+}
+.google {
+  width: 52px;
+  height: 52px;
+  flex-shrink: 0;
+  fill: #f1f2f4;
+  stroke-width: 2px;
+  stroke: var(--dark-02, #444);
+}
+.google-icon {
+  width: 52px;
+  height: 52px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.google-icon-circle {
+  width: 40px;
+  height: 40px;
+  background-color: #F1F2F4;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto; /* Add this line to center the circle */
+}
