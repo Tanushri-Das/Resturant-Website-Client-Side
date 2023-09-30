@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="mt-20">
-      <div className="footer p-16" style={{backgroundColor:"#1F2937"}}>
+      <div className="footer p-12 lg:p-24 " style={{backgroundColor:"#1F2937"}}>
         <div>
           <p className="uppercase text-xl font-semibold text-white mb-2 text-right">contact us</p>
           <p className="text-white">
@@ -62,4 +62,3 @@ const Footer = () => {
 };
 
 export default Footer;
-

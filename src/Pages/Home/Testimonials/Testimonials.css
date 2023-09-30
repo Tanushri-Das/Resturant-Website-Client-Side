@@ -1,41 +1,82 @@
-#app {
-    height: 100%;
-  }
-  html,
-  body {
-    position: relative;
-    height: 100%;
-  }
-  
-  body {
-    background: #eee;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    color: #000;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .swiper {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-  
-    /* Center slide text vertically */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
+/* Testimonials.css */
+
+/* Style for the section */
+.m-20 {
+  text-align: center;
+}
+
+/* Style for the Swiper container */
+.mySwiper {
+  width: 100%;
+}
+
+/* Style for the custom navigation buttons */
+
+.custom-next {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin-left: -25px;
+  border: 1px solid;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+.custom-prev{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin-right: -25px;
+  border: 1px solid;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+/* Style for the custom navigation buttons on hover */
+.custom-prev:hover,
+.custom-next:hover {
+  opacity: 1;
+}
+
+/* Style for the testimonials cards */
+.swiper-slide-gap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style for individual testimonial cards */
+.shadow-xl {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.border-red-500 {
+  border: 2px solid #e53e3e; /* Red border color, adjust as needed */
+}
+
+.h-80 {
+  height: 80%; /* Adjust the card height as needed */
+}
+
+/* Style for the rating stars and quote icon */
+.mb-6 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-start {
+  text-align: start;
+}
+.star-color{
+  color: #BB8506;
+}

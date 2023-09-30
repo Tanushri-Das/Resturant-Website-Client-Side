@@ -1,5 +1,41 @@
 .react-tabs__tab-list {
-
+    border-bottom: none;
     display: flex;
     justify-content: center;
 }
+/* Default styles for tabs */
+.react-tabs .react-tabs__tab-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  /* Style each tab */
+  .react-tabs .react-tabs__tab {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: #333;
+  }
+  
+  /* Style the selected (active) tab */
+  .react-tabs .react-tabs__tab--selected {
+    border-bottom: 3px solid red;
+    color: red;
+    font-size: 16px;
+  }
+  
+  
+  /* Style tab panels */
+
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .react-tabs .react-tabs__tab {
+      font-size: 14px;
+    }
+  }
+  

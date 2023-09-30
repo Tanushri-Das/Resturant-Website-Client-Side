@@ -2,6 +2,9 @@
   border-radius: 8px;
   background: rgba(209, 160, 84, 0.7);
 }
+.login-text{
+  text-shadow: none;
+}
 .login {
   background-image: url("../../assets/login/login-bg.png");
   background-size: cover;

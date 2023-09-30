@@ -1,0 +1,15 @@
+.phone {
+  border: 1px solid var(--Dark-06, #e8e8e8);
+  background: #fff;
+}
+.phone-div {
+  background: #d1a054;
+  padding: 24px 0;
+}
+.inform-text {
+  color: #444;
+}
+.phone-text{
+    background:#F3F3F3;
+
+}

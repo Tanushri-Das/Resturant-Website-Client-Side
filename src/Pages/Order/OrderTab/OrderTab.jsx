@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 // import required modules
 import { Pagination } from "swiper/modules";
 
-// todo:implement pagination here on this page
+// TODO:implement pagination here on this page
 
 const OrderTab = ({ items }) => {
   const pagination = {
@@ -18,7 +18,7 @@ const OrderTab = ({ items }) => {
     },
   };
   return (
-    <div>
+    <div className="">
       <Swiper
         pagination={pagination}
         modules={[Pagination]}

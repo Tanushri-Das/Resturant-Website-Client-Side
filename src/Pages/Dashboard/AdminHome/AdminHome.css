@@ -1,0 +1,17 @@
+.wallet {
+  border-radius: 8px;
+  background: linear-gradient(90deg, #bb34f5 0%, #fcdbff 100%);
+}
+.users {
+  border-radius: 8px;
+  background: linear-gradient(90deg, #d3a256 0%, #fde8c0 100%);
+
+}
+.items {
+  border-radius: 8px;
+  background: linear-gradient(90deg, #fe4880 0%, #fecde9 100%);
+}
+.orders{
+  border-radius: 8px;
+  background: linear-gradient(90deg, #6AAEFF 0%, #B6F7FF 100%);
+}

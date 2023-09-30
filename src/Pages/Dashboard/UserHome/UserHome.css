@@ -1,0 +1,31 @@
+.wallet {
+  border-radius: 8px;
+  background: linear-gradient(90deg, #bb34f5 0%, #fcdbff 100%);
+}
+.users {
+  border-radius: 8px;
+  background: linear-gradient(90deg, #d3a256 0%, #fde8c0 100%);
+}
+.items {
+  border-radius: 8px;
+  background: linear-gradient(90deg, #fe4880 0%, #fecde9 100%);
+}
+.activities {
+  background: #fef9c3;
+}
+.activities-text {
+  font-family: Cinzel;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.icon-first{
+    color: #0088FE;
+}
+.icon-second{
+    color: #00C4A1;
+}
+.icon-third{
+    color: #FF8042;
+}

@@ -10,23 +10,29 @@ import { useParams } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 
 const Order = () => {
-  const categories=['salad','pizza','soup','dessert','drink'];
-  const {category}=useParams();
-  const initialIndex=categories.indexOf(category);
+  const categories = ['Salad', 'Pizza', 'Pasta', 'Soup', 'Burger', 'Dessert', 'Fish', 'Chicken'];
+  const { category } = useParams();
+  const initialIndex = categories.indexOf(category) !== -1 ? categories.indexOf(category) : 0;
   const [tabIndex, setTabIndex] = useState(initialIndex);
   const [menu] = useMenu();
-//   const {category}=useParams();
-//   console.log(category)
-  const desserts = menu.filter((item) => item.category === "dessert");
-  const pizzas = menu.filter((item) => item.category === "pizza");
-  const soups = menu.filter((item) => item.category === "soup");
-  const salads = menu.filter((item) => item.category === "salad");
-  const drinks = menu.filter((item) => item.category === "drinks");
+  console.log("Category:", category);
+console.log("Initial Index:", initialIndex);
+console.log("Tab Index:", tabIndex);
+
+
+  const desserts = menu.filter((item) => item.category === "Dessert");
+  const pizzas = menu.filter((item) => item.category === "Pizza");
+  const pastas = menu.filter((item) => item.category === "Pasta");
+  const soups = menu.filter((item) => item.category === "Soup");
+  const burgers = menu.filter((item) => item.category === "Burger");
+  const salads = menu.filter((item) => item.category === "Salad");
+  const fishs = menu.filter((item) => item.category === "Fish");
+  const chickens = menu.filter((item) => item.category === "Chicken");
 
   return (
     <div>
-        <Helmet>
-        <title>Bistro Boss | Order Food</title>
+      <Helmet>
+        <title>Foodie's Paradise | Order Food</title>
         <link rel="canonical" href="https://www.tacobell.com/" />
       </Helmet>
       <Cover
@@ -34,14 +40,17 @@ const Order = () => {
         title="Order Food"
         description="Would you like to try a dish"
       />
-      <div className="my-20">
-        <Tabs defaultIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
+      <div className="my-20 mx-2 lg:m-20">
+        <Tabs defaultIndex={initialIndex} onSelect={(index) => setTabIndex(index)}>
           <TabList>
             <Tab>SALAD</Tab>
             <Tab>PIZZA</Tab>
-            <Tab>SOUPS</Tab>
+            <Tab>PASTA</Tab>
+            <Tab>SOUP</Tab>
+            <Tab>Burger</Tab>
+            <Tab>Fish</Tab>
+            <Tab>Chicken</Tab>
             <Tab>DESSERTS</Tab>
-            <Tab>DRINKS</Tab>
           </TabList>
 
           <TabPanel>
@@ -51,13 +60,22 @@ const Order = () => {
             <OrderTab items={pizzas} />
           </TabPanel>
           <TabPanel>
-          <OrderTab items={soups} />
+            <OrderTab items={pastas} />
           </TabPanel>
           <TabPanel>
-          <OrderTab items={desserts} />
+            <OrderTab items={soups} />
           </TabPanel>
           <TabPanel>
-          <OrderTab items={drinks} />
+            <OrderTab items={burgers} />
+          </TabPanel>
+          <TabPanel>
+            <OrderTab items={fishs} />
+          </TabPanel>
+          <TabPanel>
+            <OrderTab items={chickens} />
+          </TabPanel>
+          <TabPanel>
+            <OrderTab items={desserts} />
           </TabPanel>
         </Tabs>
       </div>
@@ -66,3 +84,6 @@ const Order = () => {
 };
 
 export default Order;
+
+
+

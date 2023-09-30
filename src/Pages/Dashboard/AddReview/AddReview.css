@@ -1,0 +1,8 @@
+.rate-text {
+  color: var(--Dark-01, #151515);
+  font-family: Cinzel;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

@@ -50,9 +50,9 @@
     },
     {
         "_id": "642c155b2c4774f05c36ee94",
-        "name": "Escalope de Veau",
+        "name": "White Sauce Pasta",
         "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
+        "image": "https://www.indianveggiedelight.com/wp-content/uploads/2022/12/white-sauce-pasta-featured.jpg",
         "category": "pizza",
         "price": 12.5
     },
@@ -60,7 +60,7 @@
         "_id": "642c155b2c4774f05c36ee9e",
         "name": "Fish Cutlet",
         "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
-        "image": "https://img.freepik.com/premium-photo/macher-chop-bengali-style-fish-cutlet-pakora-popular-festival-snack-from-west-bengal_466689-86617.jpg",
+        "image": "https://i.ibb.co/1nWGrV8/fish-cutlet1.jpg",
         "recommendation": "recommend",
         "price": 12.9
     },
@@ -68,13 +68,13 @@
         "_id": "642c155b2c4774f05c36eea6",
         "name": "Chicken and Walnut Salad",
         "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-3-370x247.jpg",
+        "image": "https://images.wisegeek.com/cashew-nut-salad.jpg",
         "category": "salad",
         "price": 13.5
     },
     {
         "_id": "642c155b2c4774f05c36eeaf",
-        "name": "Fried chicken and French fries ",
+        "name": "Fried chicken and French fries",
         "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
         "image": "https://img.freepik.com/premium-photo/fried-chicken-with-french-fries-nuggets-meal_1339-41027.jpg",
         "recommendation": "recommend",
@@ -98,9 +98,9 @@
     },
     {
         "_id": "642c155b2c4774f05c36ee96",
-        "name": "Grilled Fish with with salad",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-8-370x247.jpg",
+        "name": "Creamy Tomato Pasta",
+        "recipe": "This Creamy Tomato Pasta is a simple and delicious meal made from scratch in 25 minutes with a cream and tomato based sauce that is rich and silky smooth.",
+        "image": "https://www.aheadofthyme.com/wp-content/uploads/2023/02/creamy-tomato-pasta.jpg",
         "category": "pizza",
         "recommendation": "recommend",
         "price": 9.5
@@ -123,17 +123,17 @@
     },
     {
         "_id": "642c155b2c4774f05c36eea4",
-        "name": "Chicken and Walnut Salad",
+        "name": "Ginger-Miso Grilled Chicken Slaw",
         "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-3-370x247.jpg",
+        "image": "https://www.foodandwine.com/thmb/cPgkUfv_iBlYkOHWMC2-JGsNeV4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/HD-fw200606_chickensalad-501653e0a0f246e7b58bbab6be5e1da2.jpg",
         "category": "salad",
         "price": 13.5
     },
     {
         "_id": "642c155b2c4774f05c36eea5",
-        "name": "Fish Parmentier",
+        "name": "Butter Bean, Tuna, and Celery Salad",
         "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-8-370x247.jpg",
+        "image": "https://www.foodandwine.com/thmb/SBtVqGG8P51TaQWkLlrSFAJypGo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/HD-200804-r-butter-bean-tuna-9b04bb1786274da59999957af1c1c31f.jpg",
         "category": "salad",
         "price": 9.5
     },
@@ -155,17 +155,18 @@
     },
     {
         "_id": "642c155b2c4774f05c36ee7f",
-        "name": "Roasted Pork Belly",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
+        "name": "Naga burger",
+        "recipe": "Ground chicken mixed with Naga chili paste, grilled to perfection, served with lettuce, tomatoes, and condiments in a bun.",
+        "image": "https://i.ytimg.com/vi/coSZIQVdvoU/maxresdefault.jpg",
         "category": "popular",
         "price": 14.5
     },
+
     {
         "_id": "642c155b2c4774f05c36eea8",
-        "name": "Chicken and Walnut Salad",
+        "name": "Warm Puttanesca Pasta Salad",
         "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-3-370x247.jpg",
+        "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F19%2F2018%2F11%2F01%2Fwarm-pasta-salad-with-tomatoes-and-eggplant-1807-cover-2000.jpg",
         "category": "salad",
         "price": 13.5
     },
@@ -219,9 +220,9 @@
     },
     {
         "_id": "642c155b2c4774f05c36eea7",
-        "name": "Fish Parmentier",
+        "name": "Italian Tuna Salad",
         "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-8-370x247.jpg",
+        "image": "https://www.foodandwine.com/thmb/6v6qxeaaO5X9W9X5Nw26s9vk7Vc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Roman-Style-Tuna-Salad-FT-RECIPE0123-585278a5af6e4327baaeab4e52073351.jpg",
         "category": "salad",
         "price": 9.5
     },
@@ -299,25 +300,25 @@
     },
     {
         "_id": "642c155b2c4774f05c36ee97",
-        "name": "Haddock",
+        "name": "Mascarpone pesto pasta",
         "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
+        "image": "https://www.aheadofthyme.com/wp-content/uploads/2021/04/mascarpone-pesto-pasta-1-768x1152.jpg",
         "category": "pizza",
         "price": 14.7
     },
     {
         "_id": "642c155b2c4774f05c36eea0",
-        "name": "Roasted Pork Belly",
+        "name": "Pasta bake with sausage",
         "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
+        "image": "https://www.aheadofthyme.com/wp-content/uploads/2021/02/pasta-bake-with-sausage-baked-ziti.jpg",
         "category": "pizza",
         "price": 14.5
     },
     {
         "_id": "642c155b2c4774f05c36eea9",
-        "name": "Fish Parmentier",
+        "name": "Antipasto Salad with Bocconcini and Green-Olive Tapenade",
         "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-8-370x247.jpg",
+        "image": "https://www.foodandwine.com/thmb/DSXLRbjHl3lk6j88ganmpIRRYZ8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/antipasto-salad-with-green-olive-tapenade-XL-RECIPE0918-8c0c17f0cc7549debcf2374d70582491.jpg",
         "category": "salad",
         "price": 9.5
     },
@@ -382,7 +383,7 @@
         "name": "Roasted Pork Belly",
         "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
         "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
-        "category": "salad",
+        "category": "s",
         "price": 14.5
     },
     {
@@ -430,7 +431,7 @@
         "name": "Goats Cheese Pizza",
         "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
         "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2017/01/bbq-370x247.jpg",
-        "category": "salad",
+        "category": "s",
         "price": 14.5
     },
     {

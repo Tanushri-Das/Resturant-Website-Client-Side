@@ -2,10 +2,12 @@ import React, { useContext } from 'react'
 import { AuthContext } from '../../Contexts/AuthProvider/AuthProvider';
 import Swal from "sweetalert2";
 import { useLocation, useNavigate } from 'react-router-dom';
+import useCart from '../../Hooks/useCart';
 
 const FoodCard = ({item}) => {
     const { name, recipe, price, image ,_id} = item;
     const {user}=useContext(AuthContext);
+    const [,refetch]=useCart();
     const navigate=useNavigate();
     const location=useLocation();
 
@@ -13,7 +15,7 @@ const FoodCard = ({item}) => {
       console.log(item)
       if(user && user.email){
         const cartItem = {menuItemId:_id, name, recipe, price, image, email:user.email};
-        fetch('http://localhost:5000/carts',{
+        fetch('https://my-resturant-app-server-side-olk8qg3zx-tanushri-das.vercel.app/carts',{
           method:'POST',
           headers:{
             'content-type':'application/json'
@@ -23,6 +25,7 @@ const FoodCard = ({item}) => {
         .then(res => res.json())
         .then(data =>{
           if(data.insertedId){
+            refetch(); //refetch cart to update the number of items in the cart
             Swal.fire({
               position: 'top-end',
               icon: 'success',
@@ -49,10 +52,10 @@ const FoodCard = ({item}) => {
       }
     }
   return (
-    <div class="bg-gray-100 w-full h-full flex flex-col">
+    <div className="bg-gray-100 w-full h-full flex flex-col">
       <div className='h-60'>
       <img
-      class="w-full object-cover object-center mb-2 p-3"
+      className="w-full object-cover object-center mb-2 p-3 h-60"
       src={image}
       alt="content"
     />
@@ -60,11 +63,11 @@ const FoodCard = ({item}) => {
     
     
     <div className="p-6 flex-grow text-center">
-      <h3 class="text-lg text-gray-900 font-medium title-font mb-2">
+      <h3 className="text-lg text-gray-900 font-medium title-font mb-2">
         {name}
       </h3>
-      <p class="leading-relaxed text-base mb-3">{recipe}</p>
-      <p class="leading-relaxed text-semibold text-xl">${price}</p>
+      <p className="leading-relaxed text-base mb-3">{recipe}</p>
+      <p className="leading-relaxed text-semibold text-xl">${price}</p>
     </div>
     <div className="flex justify-center">
       <button onClick={()=>handleAddToCart(item)} className="bg-gray-300 text-orange-500 border-b-4 border-orange-500 py-4 px-8 text-lg uppercase font-medium hover:bg-black">

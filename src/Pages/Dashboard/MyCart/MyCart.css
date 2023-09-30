@@ -1,0 +1,27 @@
+.pay-btn {
+  display: inline-flex;
+  padding: 14px 17px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  background: #d1a054;
+  color: #fff;
+  font-family: Cinzel;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.text{
+    font-family: Cinzel;
+}
+.section-bg{
+    background-color: #F6F6F6;;
+}
+.mycart-total{
+    /* width: 992px; */
+    height: auto;
+    flex-shrink: 0;
+    padding: 50px;
+}
+

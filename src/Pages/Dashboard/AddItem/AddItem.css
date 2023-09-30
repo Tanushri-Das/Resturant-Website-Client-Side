@@ -1,0 +1,11 @@
+select {
+  color: var(--Dark-04, #a1a1a1);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.add-item {
+    background: linear-gradient(90deg, #835D23 0%, #B58130 100%);
+}
